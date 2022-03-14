@@ -1,0 +1,35 @@
+#nameDiv{
+    margin-top: 50px;
+
+}
+.input{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+#entry{
+    width: 50px;
+    height: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color:lightgray;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0 0.5);
+    margin: 10px;
+
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+}
+table, th, td {
+    border: 2px solid black;
+}
+th{
+    font-size: 12px;
+}
+td{
+    font-size:10px ;
+    color: black;
+    font-weight: 200;
+}
