@@ -167,107 +167,116 @@
             </div>
         </nav>
        
-          <div class="container mt-5">
-            <div class="row">
-              <div class="col-md-9">
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-md-5">
 
-            <table>              
-                <tr>
+
+
+              <div class=" p-1 form-control-sm">
+
+                <select class="form-select form-control-sm border-dark small p-1" aria-label="Default select example ">
+                    <option selected>dropdown</option>
+                    <option value="1">   dropdown1
+    
+                    </option>
+                    <option value="2"> dropdown1
+                    </option>
+                    <option value="3"> dropdown1
+                    </option>
+                    <option value="4"> dropdown1
+                    </option>
+                    <option value="5"> dropdown1
+                    </option>
+                    <option value="6"> dropdown1
+                    </option>
+                    <option value="7"> dropdown1
+    
+                    </option>
+                    <option value="8"> dropdown1
+                    </option>
+                    <option value="9"> dropdown1
+                    </option>
+                    <option value="10"> dropdown1
+                    </option>
+                    <option value="11"> dropdown1
+                    </option>
+                    <option value="12"> dropdown1
+    
+                    </option>
+                    <option value="13"> dropdown1
+    
+                    </option>
+                    <option value="14"> dropdown1
+    
+                    </option>
+                    <option value="15"> dropdown1
+    
                 
-                  <th style="width: 100px; text-align: center;">Balance as per BS</th>
-                  <th style="width:100px; text-align: center;">Beginning Balance</th>
-                  <th  style="width:100px; text-align: center;">Total received</th>
-                  <th  style="width:100px; text-align: center;">Total paid</th>
-                  <th style="width:100px; text-align: center;">Closing Balance</th>
-                  
-                </tr>
-
-                <tr>
-                  
-                  <td>16,858.00</td>
-                  <td>-</td>
-                  <td>110,400.00</td>
-                  <td>95,142.00</td>
-                  <td>15,258.00</td>
-
-                </tr> 
-            </table>
-              </div>
-            <div class="col-md-3">
-            <div class="heading "><h6 class="small text-right">Shopfront Limited<br>50,Lake Circus,Kalabagan,Dhaka-1205</h6></div>
-          
-
-            <div class=" p-1 form-control-sm">
-
-            <select class="form-select form-control-sm border-dark small p-1" aria-label="Default select example ">
-                <option selected>MOKAM LTD. _1103222616002_FCF</option>
-                <option value="1">   MOKAM LTD. _1103222616001_RCF
-
-                </option>
-                <option value="2">MOKAM LTD. _1103222616002_FCF
-                </option>
-                <option value="3">MOKAM LTD. _1103222616003_RCF
-                </option>
-                <option value="4">MOKAM LTD. _1103222616004_FCF
-                </option>
-                <option value="5">REDX LOGISTICS LIMITED _1252952332001_RCF
-                </option>
-                <option value="6">REDX LOGISTICS LIMITED _1252952332002_FCF
-                </option>
-                <option value="7">SHOPFRONT LIMITED _1252631989001_RCF_Reserve
-
-                </option>
-                <option value="8">SHOPFRONT LIMITED _01469737402_FCF_Salary Ac
-                </option>
-                <option value="9">UNICORN DISTRIBUTION LTD _1252825147001_RCF
-                </option>
-                <option value="10">UNICORN DISTRIBUTION LTD _1252825147002_FCF
-                </option>
-                <option value="11">UNICORN DISTRIBUTION LTD _1252825147003_FCF
-                </option>
-                <option value="12">POP DISTRIBUTION LIMITED _1252952321001_RCF
-
-                </option>
-                <option value="13">POP DISTRIBUTION LIMITED _1252952321002_FCF
-
-                </option>
-                <option value="14">BHAG DISTRIBUTION LTD. _1103422824001_RCF
-
-                </option>
-                <option value="15">BHAG DISTRIBUTION LTD. _1103422824002_FCF
-
-            
-                </option>
-
-              </select>
-            
-        </div>
-             
-            
-
+                    </option>
+    
+                  </select>
+                
+            </div>
             <input type="text" name="daterange" value="" />
 
-            <script>
-                $(
-                    function() 
-                    {
-                        $('input[name="daterange"]').daterangepicker
-                        (
-                            {
-                                opens: 'left'
-                            }, 
-                            function(start, end, label) 
-                            {
-                                console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
-                            }
-                        );
-                    }
-                );
-            </script>
-
+          <script>
+              $(
+                  function() 
+                  {
+                      $('input[name="daterange"]').daterangepicker
+                      (
+                          {
+                              opens: 'left'
+                          }, 
+                          function(start, end, label) 
+                          {
+                              console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+                          }
+                      );
+                  }
+              );
+          </script>
 
 
             </div>
+
+            
+            <div class="col-md-7">
+              <div class="bb">
+              <button type="button" class="btn btn-light "><img src="image/image4.jpg" width="20px" height="20px"></button>
+              <button type="button" class="btn btn-light "><img src="image/image3.jpg" width="20px" height="20px"></button>
+              <button type="button" class="btn btn-light "><img src="image/image5.jpg" width="20px" height="20px"></button>
+              <button type="button" class="btn btn-light "><img src="image/image6.jpg" width="30px" height="30px"></button>
+            </div>
+             
+              </div>
+
+
+
+          <table class="mt-4">              
+              <tr>
+              
+                <th style="width: 100px; text-align: center;">Balance as per BS</th>
+                <th style="width:100px; text-align: center;">Beginning Balance</th>
+                <th  style="width:100px; text-align: center;">Total received</th>
+                <th  style="width:100px; text-align: center;">Total paid</th>
+                <th style="width:100px; text-align: center;">Closing Balance</th>
+                
+              </tr>
+
+              <tr>
+                
+                <td>00000.00</td>
+                <td>00000.0</td>
+                <td>00000.00</td>
+                <td>00000.00</td>
+                <td>00000.00</td>
+
+              </tr> 
+          </table>
+            </div>
+          
             
 
                              <table class="mt-4">
@@ -300,14 +309,14 @@
                                     <td>30/06/2019</td>
                                     <td>Advance for food bill</td>
                                     <td>Margin</td>
-                                    <td>Argo & lifestyle</td>
+                                    <td>lifestyle</td>
                                     <td>0319</td>
                                     <td>Azad</td>
                                     <td>Shohel</td>
                                     <td>0.00</td>
                                     <td>15,000.00</td>
                                     <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
+                                    <td>-Hq</td>
                                     <td>V-Found</td>
                                     <td class="text-center"><a href="view1.html">View</a></td>
                                     <td>In-Balance</td>
@@ -324,14 +333,14 @@
                                     <td>Conveyance paid to Bulbul		
                                     </td>
                                     <td>Margin</td>
-                                    <td>Argo & lifestyle</td>
+                                    <td>lifestyle</td>
                                     <td>0512	</td>
                                     <td>Azad</td>
                                     <td>Shohel</td>
                                     <td>0.00</td>
                                     <td>15,000.00</td>
                                     <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
+                                    <td>-Hq</td>
                                     <td>V-Found</td>
                                     <td class="text-center"><a href="#">View</a></td>
                                     <td>In-Balance</td>
@@ -345,16 +354,16 @@
                                   <tr>
                             
                                     <td>30/06/2019</td>
-                                    <td>Conveyance paid to Bulbul		
+                                    <td>Conveyance 	
                                     </td>
                                     <td>Margin</td>
-                                    <td>Argo & lifestyle</td>
+                                    <td>lifestyle</td>
                                     <td>0512	</td>
                                     <td>Azad</td>
                                     <td>Shohel</td>
                                     <td>0.00</td>
                                     <td ></td>                                    <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
+                                    <td>-Hq</td>
                                     <td>V-Found</td>
                                     <td class="text-center"><a href="#">View</a></td>
                                     <td>In-Balance</td>
@@ -371,14 +380,14 @@
                                     <td>Conveyance paid to Bulbul		
                                     </td>
                                     <td>Margin</td>
-                                    <td>Argo & lifestyle</td>
+                                    <td>lifestyle</td>
                                     <td>0512	</td>
                                     <td>Azad</td>
                                     <td>Shohel</td>
                                     <td>0.00</td>
                                     <td>15,000.00</td>
                                     <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
+                                    <td>Hq</td>
                                     <td>V-Found</td>
                                     <td class="text-center"><a href="#">View</a></td>
                                     <td>In-Balance</td>
@@ -395,14 +404,14 @@
                                     <td>Conveyance paid to Bulbul		
                                     </td>
                                     <td>Margin</td>
-                                    <td>Argo & lifestyle</td>
+                                    <td> lifestyle</td>
                                     <td>0512	</td>
                                     <td>Azad</td>
                                     <td>Shohel</td>
                                     <td>0.00</td>
                                     <td>15,000.00</td>
                                     <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
+                                    <td>Hq</td>
                                     <td>V-Found</td>
                                     <td class="text-center"><a href="#">View</a></td>
                                     <td>In-Balance</td>
@@ -419,14 +428,14 @@
                                     <td>Conveyance paid to Bulbul		
                                     </td>
                                     <td>Margin</td>
-                                    <td>Argo & lifestyle</td>
+                                    <td>lifestyle</td>
                                     <td>0512	</td>
                                     <td>Azad</td>
                                     <td>Shohel</td>
                                     <td>0.00</td>
                                     <td>15,000.00</td>
                                     <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
+                                    <td>-Hq</td>
                                     <td>V-Found</td>
                                     <td class="text-center"><a href="#">View</a></td>
                                     <td>In-Balance</td>
@@ -443,14 +452,14 @@
                                     <td>Conveyance paid to Bulbul		
                                     </td>
                                     <td>Margin</td>
-                                    <td>Argo & lifestyle</td>
+                                    <td>lifestyle</td>
                                     <td>0512	</td>
                                     <td>Azad</td>
                                     <td>Shohel</td>
                                     <td>0.00</td>
                                     <td>15,000.00</td>
                                     <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
+                                    <td>-Hq</td>
                                     <td>V-Found</td>
                                     <td class="text-center"><a href="#">View</a></td>
                                     <td>In-Balance</td>
@@ -467,14 +476,14 @@
                                     <td>Conveyance paid to Bulbul		
                                     </td>
                                     <td>Margin</td>
-                                    <td>Argo & lifestyle</td>
+                                    <td> lifestyle</td>
                                     <td>0512	</td>
                                     <td>Azad</td>
                                     <td>Shohel</td>
                                     <td>0.00</td>
                                     <td>15,000.00</td>
                                     <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
+                                    <td>-Hq</td>
                                     <td>V-Found</td>
                                     <td class="text-center"><a href="#">View</a></td>
                                     <td>In-Balance</td>
@@ -491,14 +500,14 @@
                                     <td>Conveyance paid to Bulbul		
                                     </td>
                                     <td>Margin</td>
-                                    <td>Argo & lifestyle</td>
+                                    <td> lifestyle</td>
                                     <td>0512	</td>
                                     <td>Azad</td>
                                     <td>Shohel</td>
                                     <td>0.00</td>
                                     <td>15,000.00</td>
                                     <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
+                                    <td>-Hq</td>
                                     <td>V-Found</td>
                                     <td class="text-center"><a href="#">View</a></td>
                                     <td>In-Balance</td>
@@ -515,14 +524,14 @@
                                     <td>Conveyance paid to Bulbul		
                                     </td>
                                     <td>Margin</td>
-                                    <td>Argo & lifestyle</td>
+                                    <td> lifestyle</td>
                                     <td>0512	</td>
                                     <td>Azad</td>
                                     <td>Shohel</td>
                                     <td>0.00</td>
                                     <td>15,000.00</td>
                                     <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
+                                    <td>-Hq</td>
                                     <td>V-Found</td>
                                     <td class="text-center"><a href="#">View</a></td>
                                     <td>In-Balance</td>
@@ -539,14 +548,84 @@
                                     <td>Conveyance paid to Bulbul		
                                     </td>
                                     <td>Margin</td>
-                                    <td>Argo & lifestyle</td>
+                                    <td> lifestyle</td>
                                     <td>0512	</td>
                                     <td>Azad</td>
                                     <td>Shohel</td>
                                     <td>0.00</td>
                                     <td>15,000.00</td>
                                     <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
+                                    <td>Hq</td>
+                                    <td>V-Found</td>
+                                    <td class="text-center"><a href="#">View</a></td>
+                                    <td>In-Balance</td>
+                                    <td>User-1</td>
+                                    <td class="text-center"><div>
+                                      <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                                    </div></td>
+                                    <td>CDC-010</td>
+                                    
+                                  </tr>
+                                  <tr>
+                            
+                                    <td>30/06/2019</td>
+                                    <td>Advance for food bill</td>
+                                    <td>Margin</td>
+                                    <td>lifestyle</td>
+                                    <td>0319</td>
+                                    <td>Azad</td>
+                                    <td>Shohel</td>
+                                    <td>0.00</td>
+                                    <td>15,000.00</td>
+                                    <td>15,258.00</td>
+                                    <td>-Hq</td>
+                                    <td>V-Found</td>
+                                    <td class="text-center"><a href="view1.html">View</a></td>
+                                    <td>In-Balance</td>
+                                    <td>User-1</td>
+                                    <td class="text-center"><div>
+                                      <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                                    </div</td>
+                                    <td>CDC-010</td>
+                                    
+                                  </tr>
+                                  <tr>
+                            
+                                    <td>30/06/2019</td>
+                                    <td>Conveyance paid to Bulbul		
+                                    </td>
+                                    <td>Margin</td>
+                                    <td>lifestyle</td>
+                                    <td>0512	</td>
+                                    <td>Azad</td>
+                                    <td>Shohel</td>
+                                    <td>0.00</td>
+                                    <td>15,000.00</td>
+                                    <td>15,258.00</td>
+                                    <td>-Hq</td>
+                                    <td>V-Found</td>
+                                    <td class="text-center"><a href="#">View</a></td>
+                                    <td>In-Balance</td>
+                                    <td>User-1</td>
+                                    <td class="text-center"><div>
+                                      <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+                                    </div></td>
+                                    <td>CDC-010</td>
+                                    
+                                  </tr>
+                                  <tr>
+                            
+                                    <td>30/06/2019</td>
+                                    <td>Conveyance 	
+                                    </td>
+                                    <td>Margin</td>
+                                    <td>lifestyle</td>
+                                    <td>0512	</td>
+                                    <td>Azad</td>
+                                    <td>Shohel</td>
+                                    <td>0.00</td>
+                                    <td ></td>                                    <td>15,258.00</td>
+                                    <td>-Hq</td>
                                     <td>V-Found</td>
                                     <td class="text-center"><a href="#">View</a></td>
                                     <td>In-Balance</td>
@@ -563,14 +642,14 @@
                                     <td>Conveyance paid to Bulbul		
                                     </td>
                                     <td>Margin</td>
-                                    <td >Argo & lifestyle</td>
+                                    <td>lifestyle</td>
                                     <td>0512	</td>
                                     <td>Azad</td>
                                     <td>Shohel</td>
                                     <td>0.00</td>
                                     <td>15,000.00</td>
                                     <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
+                                    <td>Hq</td>
                                     <td>V-Found</td>
                                     <td class="text-center"><a href="#">View</a></td>
                                     <td>In-Balance</td>
@@ -587,39 +666,14 @@
                                     <td>Conveyance paid to Bulbul		
                                     </td>
                                     <td>Margin</td>
-                                    <td>Argo & lifestyle</td>
+                                    <td> lifestyle</td>
                                     <td>0512	</td>
                                     <td>Azad</td>
                                     <td>Shohel</td>
                                     <td>0.00</td>
                                     <td>15,000.00</td>
                                     <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
-                                    <td>V-Found</td>
-                                    <td class="text-center"><a href="#">View</a></td>
-                                    <td>In-Balance</td>
-                                    <td>User-1</td>
-                                    <td class="text-center"><div>
-                                      <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
-                                    </div></td>
-                                    <td>CDC-010</td>
-                                    
-                                  </tr>
-
-                                  <tr>
-                            
-                                    <td>30/06/2019</td>
-                                    <td>Conveyance paid to Bulbul		
-                                    </td>
-                                    <td>Margin</td>
-                                    <td>Argo & lifestyle</td>
-                                    <td>0512	</td>
-                                    <td>Azad</td>
-                                    <td>Shohel</td>
-                                    <td>0.00</td>
-                                    <td>15,000.00</td>
-                                    <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
+                                    <td>Hq</td>
                                     <td>V-Found</td>
                                     <td class="text-center"><a href="#">View</a></td>
                                     <td>In-Balance</td>
@@ -636,14 +690,14 @@
                                     <td>Conveyance paid to Bulbul		
                                     </td>
                                     <td>Margin</td>
-                                    <td>Argo & lifestyle</td>
+                                    <td>lifestyle</td>
                                     <td>0512	</td>
                                     <td>Azad</td>
                                     <td>Shohel</td>
                                     <td>0.00</td>
                                     <td>15,000.00</td>
                                     <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
+                                    <td>-Hq</td>
                                     <td>V-Found</td>
                                     <td class="text-center"><a href="#">View</a></td>
                                     <td>In-Balance</td>
@@ -660,14 +714,14 @@
                                     <td>Conveyance paid to Bulbul		
                                     </td>
                                     <td>Margin</td>
-                                    <td>Argo & lifestyle</td>
+                                    <td>lifestyle</td>
                                     <td>0512	</td>
                                     <td>Azad</td>
                                     <td>Shohel</td>
                                     <td>0.00</td>
                                     <td>15,000.00</td>
                                     <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
+                                    <td>-Hq</td>
                                     <td>V-Found</td>
                                     <td class="text-center"><a href="#">View</a></td>
                                     <td>In-Balance</td>
@@ -684,14 +738,14 @@
                                     <td>Conveyance paid to Bulbul		
                                     </td>
                                     <td>Margin</td>
-                                    <td>Argo & lifestyle</td>
+                                    <td> lifestyle</td>
                                     <td>0512	</td>
                                     <td>Azad</td>
                                     <td>Shohel</td>
                                     <td>0.00</td>
                                     <td>15,000.00</td>
                                     <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
+                                    <td>-Hq</td>
                                     <td>V-Found</td>
                                     <td class="text-center"><a href="#">View</a></td>
                                     <td>In-Balance</td>
@@ -708,14 +762,14 @@
                                     <td>Conveyance paid to Bulbul		
                                     </td>
                                     <td>Margin</td>
-                                    <td>Argo & lifestyle</td>
+                                    <td> lifestyle</td>
                                     <td>0512	</td>
                                     <td>Azad</td>
                                     <td>Shohel</td>
                                     <td>0.00</td>
                                     <td>15,000.00</td>
                                     <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
+                                    <td>-Hq</td>
                                     <td>V-Found</td>
                                     <td class="text-center"><a href="#">View</a></td>
                                     <td>In-Balance</td>
@@ -732,14 +786,14 @@
                                     <td>Conveyance paid to Bulbul		
                                     </td>
                                     <td>Margin</td>
-                                    <td>Argo & lifestyle</td>
+                                    <td> lifestyle</td>
                                     <td>0512	</td>
                                     <td>Azad</td>
                                     <td>Shohel</td>
                                     <td>0.00</td>
                                     <td>15,000.00</td>
                                     <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
+                                    <td>-Hq</td>
                                     <td>V-Found</td>
                                     <td class="text-center"><a href="#">View</a></td>
                                     <td>In-Balance</td>
@@ -756,158 +810,14 @@
                                     <td>Conveyance paid to Bulbul		
                                     </td>
                                     <td>Margin</td>
-                                    <td>Argo & lifestyle</td>
+                                    <td> lifestyle</td>
                                     <td>0512	</td>
                                     <td>Azad</td>
                                     <td>Shohel</td>
                                     <td>0.00</td>
                                     <td>15,000.00</td>
                                     <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
-                                    <td>V-Found</td>
-                                    <td class="text-center"><a href="#">View</a></td>
-                                    <td>In-Balance</td>
-                                    <td>User-1</td>
-                                    <td class="text-center"><div>
-                                      <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
-                                    </div></td>
-                                    <td>CDC-010</td>
-                                    
-                                  </tr>
-                                  <tr>
-                            
-                                    <td>30/06/2019</td>
-                                    <td>Conveyance paid to Bulbul		
-                                    </td>
-                                    <td>Margin</td>
-                                    <td>Argo & lifestyle</td>
-                                    <td>0512	</td>
-                                    <td>Azad</td>
-                                    <td>Shohel</td>
-                                    <td>0.00</td>
-                                    <td>15,000.00</td>
-                                    <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
-                                    <td>V-Found</td>
-                                    <td class="text-center"><a href="#">View</a></td>
-                                    <td>In-Balance</td>
-                                    <td>User-1</td>
-                                    <td class="text-center"><div>
-                                      <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
-                                    </div></td>
-                                    <td>CDC-010</td>
-                                    
-                                  </tr>
-                                  <tr>
-                            
-                                    <td>30/06/2019</td>
-                                    <td>Conveyance paid to Bulbul		
-                                    </td>
-                                    <td>Margin</td>
-                                    <td>Argo & lifestyle</td>
-                                    <td>0512	</td>
-                                    <td>Azad</td>
-                                    <td>Shohel</td>
-                                    <td>0.00</td>
-                                    <td>15,000.00</td>
-                                    <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
-                                    <td>V-Found</td>
-                                    <td class="text-center"><a href="#">View</a></td>
-                                    <td>In-Balance</td>
-                                    <td>User-1</td>
-                                    <td class="text-center"><div>
-                                      <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
-                                    </div></td>
-                                    <td>CDC-010</td>
-                                    
-                                  </tr>
-                                  <tr>
-                            
-                                    <td>30/06/2019</td>
-                                    <td>Conveyance paid to Bulbul		
-                                    </td>
-                                    <td>Margin</td>
-                                    <td>Argo & lifestyle</td>
-                                    <td>0512	</td>
-                                    <td>Azad</td>
-                                    <td>Shohel</td>
-                                    <td>0.00</td>
-                                    <td>15,000.00</td>
-                                    <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
-                                    <td>V-Found</td>
-                                    <td class="text-center"><a href="#">View</a></td>
-                                    <td>In-Balance</td>
-                                    <td>User-1</td>
-                                    <td class="text-center"><div>
-                                      <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
-                                    </div></td>
-                                    <td>CDC-010</td>
-                                    
-                                  </tr>
-                                  <tr>
-                            
-                                    <td>30/06/2019</td>
-                                    <td>Conveyance paid to Bulbul		
-                                    </td>
-                                    <td>Margin</td>
-                                    <td>Argo & lifestyle</td>
-                                    <td>0512	</td>
-                                    <td>Azad</td>
-                                    <td>Shohel</td>
-                                    <td>0.00</td>
-                                    <td>15,000.00</td>
-                                    <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
-                                    <td>V-Found</td>
-                                    <td class="text-center"><a href="#">View</a></td>
-                                    <td>In-Balance</td>
-                                    <td>User-1</td>
-                                    <td class="text-center"><div>
-                                      <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
-                                    </div></td>
-                                    <td>CDC-010</td>
-                                    
-                                  </tr>
-                                  <tr>
-                            
-                                    <td>30/06/2019</td>
-                                    <td>Conveyance paid to Bulbul		
-                                    </td>
-                                    <td>Margin</td>
-                                    <td>Argo & lifestyle</td>
-                                    <td>0512	</td>
-                                    <td>Azad</td>
-                                    <td>Shohel</td>
-                                    <td>0.00</td>
-                                    <td>15,000.00</td>
-                                    <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
-                                    <td>V-Found</td>
-                                    <td class="text-center"><a href="#">View</a></td>
-                                    <td>In-Balance</td>
-                                    <td>User-1</td>
-                                    <td class="text-center"><div>
-                                      <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
-                                    </div></td>
-                                    <td>CDC-010</td>
-                                    
-                                  </tr>
-                                  <tr>
-                            
-                                    <td>30/06/2019</td>
-                                    <td>Conveyance paid to Bulbul		
-                                    </td>
-                                    <td>Margin</td>
-                                    <td>Argo & lifestyle</td>
-                                    <td>0512	</td>
-                                    <td>Azad</td>
-                                    <td>Shohel</td>
-                                    <td>0.00</td>
-                                    <td>15,000.00</td>
-                                    <td>15,258.00</td>
-                                    <td>ShopUp-Hq</td>
+                                    <td>Hq</td>
                                     <td>V-Found</td>
                                     <td class="text-center"><a href="#">View</a></td>
                                     <td>In-Balance</td>
